@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <Switcher />
 
       <header>
         <h1>Header</h1>

@@ -12,7 +12,7 @@ export const Provider = ({ children }) => {
   }, []);
 
   if (!mounted) {
-    return ;
+    return;
   }
 
   return (
