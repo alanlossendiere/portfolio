@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Switcher } from "./Switcher";
+import { Switcher } from "../components/Switcher";
 
 export const NavBar = () => {
   const logo = "<AL />";
@@ -14,9 +14,9 @@ export const NavBar = () => {
         </h1>
         <div className="md:flex hidden items-center gap-6">
           <ul className="flex items-center list-none gap-3 text-gray-50">
-            <li className="font-bold text-gray-900">Sobre mi</li>
-            <li className="font-bold text-gray-900">Proyectos</li>
-            <li className="font-bold text-gray-900">Contacto</li>
+            <li className="text-gray-900">Sobre mi</li>
+            <li className="text-gray-900">Proyectos</li>
+            <li className="text-gray-900">Contacto</li>
           </ul>
           <div className="h-6 w-0.5 bg-gray-900"></div>
           <Switcher />

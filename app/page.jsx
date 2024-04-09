@@ -1,5 +1,4 @@
 import { NavBar } from "./ui/NavBar";
-import { Switcher } from "./ui/Switcher";
 
 export default function Home() {
   return (
