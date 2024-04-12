@@ -1,3 +1,4 @@
+import { Hero } from "./ui/Hero";
 import { NavBar } from "./ui/NavBar";
 
 export default function Home() {
@@ -5,10 +6,8 @@ export default function Home() {
     <>
       <NavBar />
 
-      <header>
-        <h1>Header</h1>
-      </header>
-      <main>
+      <main className="flex-col w-full flex min-h-screen">
+      <Hero />
         <h1>main</h1>
       </main>
     </>
