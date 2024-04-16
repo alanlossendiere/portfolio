@@ -1,5 +1,6 @@
 import { Hero } from "./ui/Hero";
 import { NavBar } from "./ui/NavBar";
+import { Skills } from "./ui/Skills";
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <NavBar />
 
       <main className="flex-col w-full flex min-h-screen">
-      <Hero />
-        <h1>main</h1>
+        <Hero />
+        <Skills />
       </main>
     </>
   );

@@ -2,7 +2,8 @@
 
 import React from "react";
 import { Switcher } from "../components/Switcher";
-
+import { NavLinks } from "../lib/data";
+import Link from "next/link";
 export const NavBar = () => {
   const logo = "<AL />";
 
@@ -14,9 +15,18 @@ export const NavBar = () => {
         </h1>
         <div className="md:flex hidden items-center gap-6">
           <ul className="flex items-center list-none gap-3 text-gray-50">
-            <li className="text-gray-900">Sobre mi</li>
+            {NavLinks.map(({ nombre, src }) => {
+              return (
+                <>
+                  <li className="text-gray-900">
+                    <Link href={src}>{nombre}</Link>
+                  </li>
+                </>
+              );
+            })}
+            {/* <li className="text-gray-900">Sobre mi</li>
             <li className="text-gray-900">Proyectos</li>
-            <li className="text-gray-900">Contacto</li>
+            <li className="text-gray-900">Contacto</li> */}
           </ul>
           <div className="h-6 w-0.5 bg-gray-900"></div>
           <Switcher />

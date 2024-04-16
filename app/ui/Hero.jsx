@@ -1,6 +1,5 @@
-"use client";
 
-import { GrGithub } from "react-icons/gr"
+// import { GrGithub } from "react-icons/gr"
 import { MapPin } from "lucide-react";
 import heroPhoto from "../../public/heroPhoto.jpg";
 import Image from "next/image";
@@ -54,8 +53,7 @@ export const Hero = () => {
                   Disponible para trabajar
                 </p>
               </div>
-              <div className="flex gap-1">
-              </div>
+              <div className="flex gap-1"></div>
             </div>
           </div>
         </div>
