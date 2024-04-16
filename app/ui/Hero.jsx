@@ -1,4 +1,3 @@
-
 // import { GrGithub } from "react-icons/gr"
 import { MapPin } from "lucide-react";
 import heroPhoto from "../../public/heroPhoto.jpg";
@@ -6,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="w-full bg-gray py-16 md:py-20 2xl:py-24">
+    <div className="w-full bg-gray-50 py-16 md:py-20 2xl:py-24">
       <div className="mx-auto w-full max-w-7xl flex flex-col gap-6 px-4 md:gap-12 md:px-8">
         <div className="flex flex-col gap-12 md:flex-row">
           {/* Imagen con fondo */}
@@ -17,8 +16,8 @@ export const Hero = () => {
                 src={heroPhoto}
                 alt="Foto de hero"
                 priority
-                className="absolute top-0 h-[280px] w-[240px] z-10 border-gray border-8 max-md:left-5"
-              ></Image>
+                className="absolute top-0 h-[280px] w-[240px] z-10 border-gray-100 border-8 max-md:left-5"
+              />
               <div className="absolute h-[280px] w-[280px] border-8 bg-gray-200 border-transparent max-md:top-5" />
             </div>
           </div>
