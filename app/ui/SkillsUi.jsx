@@ -1,8 +1,7 @@
 
 import { Skills } from "../lib/data";
 import { SkillsData } from "../components/dataToDisplay/SkillsData";
-export const Skills = () => {
-  console.log(Skills.map((props, index) => props));
+export const SkillsUi = () => {
 
   return (
     <section className="w-100 bg-gray  py-16 px-4">

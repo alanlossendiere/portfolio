@@ -1,6 +1,6 @@
 import { Hero } from "./ui/Hero";
 import { NavBar } from "./ui/NavBar";
-import { Skills } from "./ui/Skills";
+import { Skills } from "./ui/SkillsUi";
 
 export default function Home() {
   return (
