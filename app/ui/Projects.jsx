@@ -45,8 +45,8 @@ export const Projects = () => {
               </p>
               <p>{props.descripcion}</p>
               <div className="flex flex-wrap gap-2">
-                {props.Skills.map((skills) => (
-                  <div className="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
+                {props.Skills.map((skills, index) => (
+                  <div className="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1" key={index}>
                     <p className="text-sm font-medium">{skills}</p>
                   </div>
                 ))}
