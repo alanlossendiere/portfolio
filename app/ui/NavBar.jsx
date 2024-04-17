@@ -10,9 +10,11 @@ export const NavBar = () => {
   return (
     <nav className="w-100 bg-opacity-50 bg-gray sticky top-0 z-30">
       <div className="flex w-full items-center justify-between p-4 max-w-7xl mx-auto">
-        <h1 className="font-[inter] text-2xl md:text-3xl font-bold text-gray-900">
-          {logo}
-        </h1>
+        <Link href="/">
+          <h1 className="font-[inter] text-2xl md:text-3xl font-bold text-gray-900">
+            {logo}
+          </h1>
+        </Link>
         <div className="md:flex hidden items-center gap-6">
           <ul className="flex items-center list-none gap-3 text-gray-50">
             {NavLinks.map(({ nombre, src }) => {

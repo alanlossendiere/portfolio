@@ -23,12 +23,12 @@ export const NavLinks = [
     src: "#SobreMi",
   },
   {
-    nombre: "Proyectos",
-    src: "#Proyectos",
-  },
-  {
     nombre: "Habilidades",
     src: "#Habilidades",
+  },
+  {
+    nombre: "Proyectos",
+    src: "#Proyectos",
   },
   {
     nombre: "Contacto",
@@ -107,7 +107,8 @@ export const Proyectos = [
       "Vite",
     ],
     imgStatic: denalanWeb,
-    descripcion: "Loremmm Loreemmm",
+    descripcion:
+      "Pagina Web estatica desarrollada para alquileres de temporada en la ciudad de Villa Gesell, buscando mostrar sus propiedades",
   },
   {
     nombre: "Eucalipto Ecommerce",
@@ -122,7 +123,7 @@ export const Proyectos = [
       "Redux",
     ],
     imgStatic: eucaliptoWeb,
-    descripcion: "Loremmm Loreemmm",
+    descripcion: "E-Commerce de tienda de ropa, es un modelo de muestra que tambien cuenta con su administrador de productos",
   },
   {
     nombre: "Admin Dashboard Ecommerce",
@@ -139,7 +140,7 @@ export const Proyectos = [
       "Redux",
     ],
     imgStatic: eucaliptoAdmin,
-    descripcion: "Loremmm Loreemmm",
+    descripcion: "Es el administrador de productos del E-Commerce de Eucalipto, cuenta con edicion y subida de imagenes",
   },
   // {
   //   nombre: "Menu Restaurant - QuickMenu",
@@ -153,7 +154,7 @@ export const Proyectos = [
     src: "https://gifexpertapp.alanlossendiere.com/",
     Skills: ["React", "Javascript", "Bootstrap", "React Router"],
     imgStatic: gifExpertApp,
-    descripcion: "Loremmm Loreemmm",
+    descripcion: "Buscador de los principales Gif segun lo que busques",
   },
   {
     nombre: "Notas con backend",
@@ -167,6 +168,6 @@ export const Proyectos = [
       "Firebase",
     ],
     imgStatic: journalWeb,
-    descripcion: "Loremmm Loreemmm",
+    descripcion: "Aplicacion desarrollada durante curso MERN Stack, es un anotador desarrollado con firebase como DB",
   },
 ];

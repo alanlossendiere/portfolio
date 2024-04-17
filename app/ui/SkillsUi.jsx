@@ -2,7 +2,7 @@ import { Skills } from "../lib/data";
 import { SkillsData } from "../components/dataToDisplay/SkillsData";
 export const SkillsUi = () => {
   return (
-    <section className="w-full bg-gray py-16 px-4">
+    <section className="w-full bg-gray py-16 px-4" id="Habilidades">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4">
         {/* Titulo y descripcion */}
         <div className="flex flex-col items-center gap-4">

@@ -6,7 +6,7 @@ import { Proyectos } from "../lib/data";
 
 export const Projects = () => {
   return (
-    <div className="bg-gray-50 w-full py-16 px-4 md:py-20 2xl:py-24">
+    <div className="bg-gray-50 w-full py-16 px-4 md:py-20 2xl:py-24" id="Proyectos">
       <div className="w-full mx-auto flex flex-col max-w-7xl gap-6 md:gap-12 md:">
         {/* Titulo y descripcion */}
         <div className="flex flex-col items-center gap-4">

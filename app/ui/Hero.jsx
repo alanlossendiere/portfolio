@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="w-full bg-gray-50 py-16 md:py-20 2xl:py-24">
+    <div className="w-full bg-gray-50 py-16 md:py-20 2xl:py-24" id="Sobre mi">
       <div className="mx-auto w-full max-w-7xl flex flex-col gap-6 px-4 md:gap-12 md:px-8">
         <div className="flex flex-col gap-12 md:flex-row">
           {/* Imagen con fondo */}

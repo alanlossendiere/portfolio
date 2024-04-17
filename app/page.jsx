@@ -1,3 +1,4 @@
+import { Contact } from "./ui/Contact";
 import { Hero } from "./ui/Hero";
 import { NavBar } from "./ui/NavBar";
 import { Projects } from "./ui/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <SkillsUi />
         <Projects />
+        <Contact />
       </main>
     </>
   );
