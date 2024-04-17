@@ -6,8 +6,8 @@ import { Proyectos } from "../lib/data";
 
 export const Projects = () => {
   return (
-    <div className="bg-gray-50 w-full py-16 px-4">
-      <div className="w-full mx-auto flex flex-col max-w-7xl gap-6">
+    <div className="bg-gray-50 w-full py-16 px-4 md:py-20 2xl:py-24">
+      <div className="w-full mx-auto flex flex-col max-w-7xl gap-6 md:gap-12 md:">
         {/* Titulo y descripcion */}
         <div className="flex flex-col items-center gap-4">
           <div className="self-center">
@@ -21,10 +21,10 @@ export const Projects = () => {
 
         {Proyectos.map((props, index) => (
           <div
-            className="rounded-xl bg-gray shadow-md mx-auto flex w-full flex-col max-w-6xl dark:bg-gray-100 dark:shadow-2xl"
+            className="rounded-xl bg-gray shadow-md mx-auto flex w-full flex-col max-w-6xl dark:bg-gray-100 dark:shadow-2xl md:flex-row"
             key={index}
           >
-            <div className="flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl">
+            <div className="flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:border-r md:rounded-l-xl md:w-1/2">
               <a href={props.src} rel="noopener noreferrer">
                 <a
                   onClick={(e) => {
@@ -39,7 +39,7 @@ export const Projects = () => {
                 </a>
               </a>
             </div>
-            <div className="flex flex-col gap-6 p-8">
+            <div className="flex flex-col gap-6 p-8 md:w-1/2 lg:p-12">
               <p className="tex-lg font-semibold text-gray-900">
                 {props.nombre}
               </p>
