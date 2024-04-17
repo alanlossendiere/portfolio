@@ -12,8 +12,8 @@ export const Contact = () => {
             </div>
           </div>
           <p className="text-lg md:text-xl text-center max-w-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-            commodi vero ipsam nihil doloremque totam, veritatis.
+            En caso de querer contactarme para algun trabajo o proyecto.
+            Estoy disponible 😎
           </p>
         </div>
         <div className="flex flex-col items-center gap-6 md:gap-12">

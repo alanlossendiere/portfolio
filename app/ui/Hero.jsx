@@ -1,9 +1,14 @@
+"use client";
+
 // import { GrGithub } from "react-icons/gr"
 import { MapPin } from "lucide-react";
 import heroPhoto from "../../public/heroPhoto.jpg";
 import Image from "next/image";
+import { RedesSociales } from "../lib/data";
+import Link from "next/link";
 
 export const Hero = () => {
+  console.log(RedesSociales.map((props) => props));
   return (
     <div className="w-full bg-gray-50 py-16 md:py-20 2xl:py-24" id="Sobre mi">
       <div className="mx-auto w-full max-w-7xl flex flex-col gap-6 px-4 md:gap-12 md:px-8">
@@ -28,10 +33,10 @@ export const Hero = () => {
             <div className="flex flex-col gap-2">
               <h1 className="font-semibold text-4xl">Hola, Soy Alan</h1>
               <p className="text-base text-normal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                dolorum nostrum perferendis deserunt repellendus soluta
-                perspiciatis temporibus? Enim ut harum ab sequi quae et
-                inventore placeat. Numquam libero quam voluptatibus.
+                Mi nombre es Alan Lossendiere, soy programador Full Stack -
+                MERN, me encuentro realizando proyectos propios para aprender,
+                estoy en busqueda de proyectos para seguir creciendo y
+                aprendiendo profesionalmente.
               </p>
             </div>
             <div className="flex flex-col gap-2">
@@ -52,7 +57,17 @@ export const Hero = () => {
                   Disponible para trabajar
                 </p>
               </div>
-              <div className="flex gap-1"></div>
+              <div className="flex gap-1">
+                {RedesSociales.map((props, index) => (
+                  <Link href={props.url}>
+                    <Image
+                      key={index}
+                      src={props.logo}
+                      className="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-6 [&_svg]:h-6"
+                    />
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>

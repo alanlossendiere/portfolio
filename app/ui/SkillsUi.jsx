@@ -12,7 +12,8 @@ export const SkillsUi = () => {
             </div>
           </div>
           <p className="text-lg text-center">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Frameworks usados durante los proyectos que estan publicados y otros
+            en los que sigo trabajando.
           </p>
         </div>
 

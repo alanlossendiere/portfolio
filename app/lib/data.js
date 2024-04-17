@@ -17,6 +17,11 @@ import nextjsLogo from "../../public/logos/nextjs.svg";
 import reactjsLogo from "../../public/logos/reactjs.svg";
 import mongodbLogo from "../../public/logos/mongodb.svg";
 
+// Logo redes sociales
+
+import gitIcon from "../../public/logos/gitIcon.svg";
+import linkedInIcon from "../../public/logos/linkedInIcon.svg";
+
 export const NavLinks = [
   {
     nombre: "Sobre Mi",
@@ -40,15 +45,18 @@ export const RedesSociales = [
   {
     redSocial: "GitHub",
     url: "https://github.com/Alusonn",
+    logo: gitIcon,
   },
   {
     redSocial: "LinkedId",
     url: "https://www.linkedin.com/in/alan-lossendiere-3485b279/",
+    logo: linkedInIcon,
   },
-  {
-    redSocial: "UpWork",
-    url: "https://www.upwork.com/freelancers/~011927e6ffa2f654f8",
-  },
+  // {
+  //   redSocial: "UpWork",
+  //   url: "https://www.upwork.com/freelancers/~011927e6ffa2f654f8",
+  //   logo: gitIcon,
+  // },
 ];
 
 export const Skills = [
@@ -123,7 +131,8 @@ export const Proyectos = [
       "Redux",
     ],
     imgStatic: eucaliptoWeb,
-    descripcion: "E-Commerce de tienda de ropa, es un modelo de muestra que tambien cuenta con su administrador de productos",
+    descripcion:
+      "E-Commerce de tienda de ropa, es un modelo de muestra que tambien cuenta con su administrador de productos",
   },
   {
     nombre: "Admin Dashboard Ecommerce",
@@ -140,7 +149,8 @@ export const Proyectos = [
       "Redux",
     ],
     imgStatic: eucaliptoAdmin,
-    descripcion: "Es el administrador de productos del E-Commerce de Eucalipto, cuenta con edicion y subida de imagenes",
+    descripcion:
+      "Es el administrador de productos del E-Commerce de Eucalipto, cuenta con edicion y subida de imagenes",
   },
   // {
   //   nombre: "Menu Restaurant - QuickMenu",
@@ -168,6 +178,7 @@ export const Proyectos = [
       "Firebase",
     ],
     imgStatic: journalWeb,
-    descripcion: "Aplicacion desarrollada durante curso MERN Stack, es un anotador desarrollado con firebase como DB",
+    descripcion:
+      "Aplicacion desarrollada durante curso MERN Stack, es un anotador desarrollado con firebase como DB",
   },
 ];
