@@ -2,7 +2,7 @@
 import "./globals.css";
 import { Provider } from "./lib/Provider";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { Analytics } from "@vercel/analytics/react";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body>
         <Provider>{children}</Provider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
