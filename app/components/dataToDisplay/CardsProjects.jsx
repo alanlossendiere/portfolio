@@ -5,7 +5,7 @@ export const CardsProjects = (props) => {
 
     
   return (
-    <div className="rounded-xl bg-gray shadow-md mx-auto flex w-full flex-col max-w-6xl dark:bg-gray-100 dark:shadow-2xl">
+    <div className="rounded-xl bg-gray shadow-md mx-auto flex w-full flex-col max-w-6xl dark:bg-gray-100 dark:shadow-2xl" key={props.nombre}>
       <div className="flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl">
         <a href={props.src} rel="noopener noreferrer">
           <a
