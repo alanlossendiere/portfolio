@@ -59,10 +59,10 @@ export const Hero = () => {
               </div>
               <div className="flex gap-1">
                 {RedesSociales.map((props, index) => (
-                  <Link href={props.url}>
+                  <Link href={props.url} key={index}>
                     <Image
-                      key={index}
                       src={props.logo}
+                      alt={props.redSocial}
                       className="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-6 [&_svg]:h-6"
                     />
                   </Link>
