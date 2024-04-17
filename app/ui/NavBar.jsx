@@ -32,9 +32,9 @@ export const NavBar = () => {
           </ul>
           <div className="h-6 w-0.5 bg-gray-900"></div>
           <Switcher />
-          <button className="rounded-xl items-center justify-center font-medium bg-gray-900 active:bg-gray-800 hover:bg-gray-700 px-4 py-1.5 text-gray-50 transition-colors inline-flex">
+          {/* <button className="rounded-xl items-center justify-center font-medium bg-gray-900 active:bg-gray-800 hover:bg-gray-700 px-4 py-1.5 text-gray-50 transition-colors inline-flex">
             Descargar CV
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
