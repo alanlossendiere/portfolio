@@ -8,7 +8,7 @@ export const NavBar = () => {
   const logo = "<AL />";
 
   return (
-    <nav className="w-100 bg-opacity-50 bg-gray sticky top-0 z-30 ">
+    <nav className="w-100 bg-opacity-50 bg-gray sticky top-0 z-30">
       <div className="flex w-full items-center justify-between p-4 max-w-7xl mx-auto">
         <h1 className="font-[inter] text-2xl md:text-3xl font-bold text-gray-900">
           {logo}

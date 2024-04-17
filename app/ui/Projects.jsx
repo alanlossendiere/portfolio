@@ -18,8 +18,8 @@ export const Projects = () => {
 
         {/* Proyectos realizados, lista */}
 
-        {Proyectos.map((props, index) => (
-          <CardsProjects key={index} {...props} />
+        {Proyectos.map((props) => (
+          <CardsProjects key={props.nombre} {...props} />
         ))}
       </div>
     </div>
