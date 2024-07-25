@@ -8,6 +8,7 @@ import gifExpertApp from "../../public/GifExpertApp Web.png";
 
 // Logos import
 
+import typescriptLogo from "../../public/logos/typescript.svg";
 import gitLogo from "../../public/logos/git.svg";
 import javascriptLogo from "../../public/logos/javascript.svg";
 import expressLogo from "../../public/logos/express.svg";
@@ -21,6 +22,8 @@ import mongodbLogo from "../../public/logos/mongodb.svg";
 
 import gitIcon from "../../public/logos/gitIcon.svg";
 import linkedInIcon from "../../public/logos/linkedInIcon.svg";
+// import upWorkIcon from "../../public/logos/upWork.svg";
+import cvIcon from "../../public/logos/cv.svg";
 
 export const NavLinks = [
   {
@@ -52,10 +55,15 @@ export const RedesSociales = [
     url: "https://www.linkedin.com/in/alan-lossendiere-3485b279/",
     logo: linkedInIcon,
   },
+  {
+    redSocial: "CV",
+    url: "https://res.cloudinary.com/dyp6u7nll/image/upload/v1721880690/portfolio/widazxnftuae4dbu16kk.pdf",
+    logo: cvIcon,
+  },
   // {
   //   redSocial: "UpWork",
   //   url: "https://www.upwork.com/freelancers/~011927e6ffa2f654f8",
-  //   logo: gitIcon,
+  //   logo: upWorkIcon,
   // },
 ];
 
@@ -98,6 +106,11 @@ export const Skills = [
   {
     framework: "Git",
     logo: gitLogo,
+    url: "www.alanlossendiere.com",
+  },
+  {
+    framework: "Typescript",
+    logo: typescriptLogo,
     url: "www.alanlossendiere.com",
   },
 ];

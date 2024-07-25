@@ -4,8 +4,17 @@ import React from "react";
 import { Switcher } from "../components/Switcher";
 import { NavLinks } from "../lib/data";
 import Link from "next/link";
+import { saveAs } from "file-saver";
 export const NavBar = () => {
   const logo = "<AL />";
+
+  const cvDownload = () => {
+    saveAs(
+      "https://res.cloudinary.com/dyp6u7nll/image/upload/v1721879688/portfolio/d4ut3bslj95xgsaoajob.png",
+      "AlanLossendiere-cv.png"
+    );
+    console.log("dn ajs");
+  };
 
   return (
     <nav className="w-100 bg-opacity-50 bg-gray sticky top-0 z-30">
@@ -32,9 +41,12 @@ export const NavBar = () => {
           </ul>
           <div className="h-6 w-0.5 bg-gray-900"></div>
           <Switcher />
-          {/* <button className="rounded-xl items-center justify-center font-medium bg-gray-900 active:bg-gray-800 hover:bg-gray-700 px-4 py-1.5 text-gray-50 transition-colors inline-flex">
+          <button
+            onClick={cvDownload}
+            className="rounded-xl items-center justify-center font-medium bg-gray-900 active:bg-gray-800 hover:bg-gray-700 px-4 py-1.5 text-gray-50 transition-colors inline-flex"
+          >
             Descargar CV
-          </button> */}
+          </button>
         </div>
       </div>
     </nav>
