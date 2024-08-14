@@ -10,8 +10,8 @@ export const NavBar = () => {
 
   const cvDownload = () => {
     saveAs(
-      "https://res.cloudinary.com/dyp6u7nll/image/upload/v1721879688/portfolio/d4ut3bslj95xgsaoajob.png",
-      "AlanLossendiere-cv.png"
+      "https://res.cloudinary.com/dyp6u7nll/image/upload/v1721880690/portfolio/widazxnftuae4dbu16kk.pdf",
+      "AlanLossendiere-cv.pdf"
     );
   };
 
